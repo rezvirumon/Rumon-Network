@@ -1,0 +1,59 @@
+/* media/responsive-section-css */
+
+@media (max-width: 1700px) {
+    header{
+        padding: 20px 8%;
+        
+    }
+    header.sticky{
+        padding: 14px 8%;
+    }
+
+    .logo{
+        font-size: 28px;
+    }
+}
+
+
+
+@media (max-width: 1380px) {
+    header{
+        padding: 20px 5%;
+    }
+    header.sticky{
+        padding: 14px 5%;
+    }
+
+    
+}
+
+
+@media (max-width: 950px){
+    :root{
+        --h1-font: 3.5rem;
+    }
+
+    #menu-icon{
+        display: block;
+        color: white;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 255px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        transition: all .50s ease;
+    }
+    .navlist a{
+        display: block;
+        padding: 17px;
+        font-size: 22px;
+    }
+    .navlist.active{
+        right: 0;
+    }
+}
