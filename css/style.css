@@ -6,15 +6,6 @@
 }
 
 
-
-#top-section{
-    background: #032432;
-}
-/* Button BG */
-.c-btn:hover{
-    background-color: #042b3b;
-}
-
 *{
    
     font-family: 'inter Tight' , sans-serif;
@@ -28,13 +19,13 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
-    right: 0;
+    left:0;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 16%;
-    background: rgb(2, 20, 44);
+    padding: 40px 10px;
+    background: transparent;
     transition: all .50s ease;
 }
 
@@ -50,7 +41,6 @@ header{
     display:flex;
 }
 .navlist a{
-    font-size: var(--p-font);
     font-weight: 5000;
     color: white;
     margin-left: 40px;
@@ -58,8 +48,8 @@ header{
 }
 
 .navlist a:hover{
-    color: rgb(10, 178, 60);
-    text-shadow: 2px 2px 20px var(--main-color),  -2px 1px 30px var(--text-color) ;
+    color: rgb(15, 162, 225);
+    text-shadow: 2px 2px 20px rgb(16, 113, 240),  -2px 1px 30px rgb(15, 225, 78) ;
 }
 
 #menu-icon{
@@ -72,11 +62,8 @@ header{
 
 
 
-
-
-
 header.sticky{
-    background: rgb(69, 117, 64);
+    background: rgba(15, 71, 144, 0.693);
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
     padding: 16px 16%;
 }
@@ -91,7 +78,7 @@ header.sticky{
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    color: var(--text-color);;
+    color: red;
     font-size: 27px;
 }
 

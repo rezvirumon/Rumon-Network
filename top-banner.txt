@@ -1,0 +1,20 @@
+  <!-- Top Section -->
+    <div class="lg:w-full flex lg:flex items-center h-[100px;] lg:h-[50px;]" id="top-section">
+        <!-- Container -->
+        <div class="container mx-auto  lg:flex  text-white ">
+            <!-- Content -->
+            <div class="lg:flex justify-between  w-full">
+                <div class="flex justify-center lg:gap-3 gap-2 text-lg items-center ">
+                    <i class="fa-solid fa-headset "></i>
+                    <p>09639185472</p>
+                    <i class="fa-solid fa-envelope-circle-check ml-5"></i>
+                    <p>rctnbd@gmail.com</p>
+                </div>
+                <div
+                    class="px-5 mt-5 lg:mt-0 text-center  lg:rounded-xl cursor-pointer c-btn  lg:border-b transition duration-400  border-green-400 ">
+                    <p class="animate-bounce ">Customer Portal</p>
+                    <!--Portal Button -->
+                </div>
+            </div>
+        </div>
+    </div>
